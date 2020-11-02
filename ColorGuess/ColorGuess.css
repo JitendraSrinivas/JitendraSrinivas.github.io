@@ -1,0 +1,87 @@
+h1 {
+  color: white;
+  text-align: center;
+  line-height: 1.1;
+  margin: 0%;
+  background-color: steelblue;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.square {
+  width: 30%;
+  background-color: #232323;
+  padding-bottom: 25%;
+  float: left;
+  margin: 1.6%;
+  border-radius: 20px;
+  transition: background 0.5s;
+}
+
+#container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+body {
+  background-color: #232323;
+  margin: 0%;
+}
+
+#pickedColor {
+  font-size: 150%;
+}
+button {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: inherit;
+  height: 100%;
+  color: steelblue;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  outline: none;
+}
+#toolBar {
+  background-color: white;
+  height: 30px;
+  text-align: center;
+}
+
+#message {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: inherit;
+  /* height: 100%; */
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  width: 20%;
+  /* color: lawngreen; */
+}
+
+img {
+  height: 100px;
+  float: right;
+}
+
+.blue {
+  background-color: steelblue;
+  color: white;
+}
+
+.bluehover {
+  background-color: steelblue;
+  color: white;
+}
+
+button:hover {
+  color: wheat;
+  background-color: steelblue;
+}
